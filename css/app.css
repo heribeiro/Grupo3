@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Mono:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+.bg-CorNav{
+    /* background-color: #ff6a00; */
+    background-color: #31f9c0ed;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main{
+    flex: 1 0 auto;
+    padding: 6rem 0;
+}
+
+@media screen and (min-width:990px){
+    
+.navbar-brand{
+    position: absolute;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: 4px;
+    top: 0;
+}
+/* Efeito hover na navegação */
+.nav-link:hover, .nav-link.active{
+    background-color: #037DA0;
+    color: #fff!important;
+    transition: all 0.7s;
+}
+.nav-link{
+    transition: all 0.7s;
+}
+
+.configNavbar{
+    height: 100px;
+
+}
+li.nav-item a{
+    padding: 37px 0;
+}
+
+}
+/* FIM RESPONSIVO */
+
+.icofont-navigation-menu{
+color: #ffffff;
+}
+
+/* EMPRESA */
+
+#visitar{
+    text-shadow: #000000;
+    color: #941112;
+    margin-left: 15px;
+    font-family: 'Fira Mono', monospace;
+    
+}
+/* Depoimentos */
+
+
+/* CONTATO */
+
+
+/* DEPOIMENTOS */
+
+/* FOOTER */
+.page-footer{
+    position: fixed;
+    width: 100%;
+    /* height: 50px; */
+    bottom: 0;
+    background-color: #31f9c0ed;
+}
+.page-footer, .footer-copyright{
+    padding: 15px 0;
+}
+.footer-copyright *{
+    color: aliceblue;
+    text-decoration: none;
+}
+.footer-copyright a:hover{
+    color: black;
+}
+.right{
+    float: right;
+    text-decoration: none;
+}
