@@ -56,6 +56,14 @@ color: #ffffff;
     font-family: 'Fira Mono', monospace;
     
 }
+
+#obj{
+    text-shadow: #000000;
+    color: #941112;
+    margin-left: 15px;
+    font-family: 'Fira Mono', monospace;
+
+}
 /* Depoimentos */
 
 
