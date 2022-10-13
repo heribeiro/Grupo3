@@ -67,7 +67,7 @@ li.nav-item a{
     margin-left: -500px;
     padding: 0;
     font-size: 5.5em;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
     line-height: 150px;
     text-shadow: 0.1em 0.1em 0.2em black;
@@ -102,7 +102,14 @@ color: #ffffff;
 
 }
 /* Depoimentos */
-
+.text-center h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.depoimento{
+    margin-top: 15px;
+    
+}
 
 /* CONTATO */
 
