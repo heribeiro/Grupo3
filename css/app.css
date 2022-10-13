@@ -66,7 +66,7 @@ li.nav-item a{
 .banner .content h1{
     margin-left: -500px;
     padding: 0;
-    font-size: 5.5em;
+    font-size: 4em;
     color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
     line-height: 150px;
@@ -89,7 +89,7 @@ color: #ffffff;
 #visitar{
     text-shadow: #000000;
     color: #941112;
-    margin-left: 15px;
+    margin-left: 0px;
     font-family: 'Fira Mono', monospace;
     
 }
@@ -97,7 +97,7 @@ color: #ffffff;
 #obj{
     text-shadow: #000000;
     color: #941112;
-    margin-left: 15px;
+    margin-left: 0px;
     font-family: 'Fira Mono', monospace;
 
 }
