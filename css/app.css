@@ -1,61 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fira+Mono:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
-.bg-CorNav{
-    /* background-color: #ff6a00; */
-    background-color: #31f9c0ed;
+
+*{
+    padding: 0;
+    margin:0;
+    border: 0;
 }
-body{
+
+.bg-CorNav {
+    /* background-color: #ff6a00; */
+    background-color: #24c8dded;
+}
+
+body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
 }
-main{
+
+main {
     flex: 1 0 auto;
-    padding: 6rem 0;
+    padding: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+    gap:15px
 }
 
-@media screen and (min-width:990px){
-    
-.navbar-brand{
-    position: absolute;
-    left: 50%;
-    margin-left: -60px;
-    margin-top: 4px;
-    top: 0;
-}
-/* Efeito hover na navegação */
-.nav-link:hover, .nav-link.active{
-    background-color: #037DA0;
-    color: #fff!important;
-    transition: all 0.7s;
-}
-.nav-link{
-    transition: all 0.7s;
+@media screen and (min-width:990px) {
+
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -60px;
+        margin-top: 4px;
+        top: 0;
+     
+    }
+
+    /* Efeito hover na navegação */
+    .nav-link:hover,
+    .nav-link.active {
+        background-color:#0a95bb;
+        color: #fff !important;
+        transition: all 0.5s;
+    }
+
+    .nav-link {
+        transition: all 0.5s;
+    }
+
+    .configNavbar {
+        height: 100px;
+
+    }
+
+    li.nav-item a {
+        padding: 37px 0;
+    }
+
 }
 
-.configNavbar{
-    height: 100px;
-
-}
-li.nav-item a{
-    padding: 37px 0;
-}
-
-}
 /* FIM RESPONSIVO */
 
-.icofont-navigation-menu{
-color: #ffffff;
+.icofont-navigation-menu {
+    color: #ffffff;
 }
 
 /* EMPRESA */
 
-#visitar{
+#visitar {
     text-shadow: #000000;
     color: #941112;
     margin-left: 15px;
     font-family: 'Fira Mono', monospace;
-    
+
 }
+
 /* Depoimentos */
 
 
@@ -65,24 +84,32 @@ color: #ffffff;
 /* DEPOIMENTOS */
 
 /* FOOTER */
-.page-footer{
+.page-footer {
     position: fixed;
     width: 100%;
     /* height: 50px; */
     bottom: 0;
-    background-color: #31f9c0ed;
+    background-color: #0a95bb;
+   
 }
-.page-footer, .footer-copyright{
+
+.page-footer,
+.footer-copyright {
     padding: 15px 0;
 }
-.footer-copyright *{
+
+.footer-copyright * {
     color: aliceblue;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
 }
-.footer-copyright a:hover{
+
+.footer-copyright a:hover {
     color: black;
 }
-.right{
+
+.right {
     float: right;
     text-decoration: none;
 }
