@@ -121,7 +121,7 @@ li.nav-item a {
     text-shadow: #000000;
     color: #941112;
     margin-left: 0px;
-    font-family: 'Fira Mono', monospace;
+    font-family: 'Roboto', monospace;
     text-align: justify;
 
 }
@@ -131,13 +131,20 @@ li.nav-item a {
     text-shadow: #000000;
     color: #941112;
     margin-left: 0px;
-    font-family: 'Fira Mono', monospace;
+    font-family: 'Roboto', monospace;
     text-align: justify;
 }
 
 .textp{
     text-align: justify;
+    font-family: 'Roboto', monospace;
 
+}
+
+/*Acomodações*/
+
+.pr{
+    margin-top:20%;
 }
 
 /* Depoimentos */
