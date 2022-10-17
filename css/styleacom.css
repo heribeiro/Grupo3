@@ -1,13 +1,21 @@
-.row{
-padding: 10px;
-justify-content: space-between;
-
-gap:20px;
-
-
-
+* {
+        margin: 0;
+        padding: 0;
 }
 
-.text{
-        justify-self:flex-start;
+container{
+        justify-content: space-evenly;
+}
+
+.row {
+        padding: 15px;
+        gap: 20px;
+text-align: center;
+        align-items: center;
+}
+
+
+a {
+        text-decoration: none;
+        color: green
 }
