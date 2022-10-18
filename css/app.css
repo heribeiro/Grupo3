@@ -24,7 +24,6 @@ main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 15px;
     gap: 15px
-    
 }
 
 @media screen and (min-width:990px) {
@@ -135,7 +134,7 @@ li.nav-item a {
     text-align: justify;
 }
 
-.textp{
+.textp {
     text-align: justify;
     font-family: 'Roboto', monospace;
 
@@ -143,15 +142,20 @@ li.nav-item a {
 
 /*Acomodações*/
 
-.pr{
-    margin-top:20%;
+a{
+    text-decoration: none;
+    color: green;
+}
+
+.pr {
+    margin-top: 20%;
 }
 
 /* Depoimentos */
 
 
 .text-center h1 {
-   
+
     font-family: 'Dancing Script', cursive;
     font-size: 60px;
 }
