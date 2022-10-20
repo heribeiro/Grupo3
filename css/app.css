@@ -220,11 +220,11 @@ a{
     text-decoration: none;
     font-size: 40px;
     color: green;
-    transition: 0.7s;
+    transition: 1s;
 }
 #iconZap:hover{
-    font-size: 42px;
-    color: rgba(0, 128, 0, 0.775);
+    font-size: 41px;
+    color: rgba(0, 128, 0, 0.600);
     transition: 0.7s;
 }
 
