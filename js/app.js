@@ -18,14 +18,14 @@ function activeLink() {
 injectContent();
 activeLink();
 
-// Cookies alerta lei LGPD
+// Alerta Cookies lei LGPD 
 
 let lgpdUrl = '#';
 let lgpdHTML = `
     <div class="lgpd">
         <div class="lgpd-esq">
-            Esse site usa cookies para garantir que você obtenha a melhor       experiência de navegação. <br>
-            Para conferir detalhadamente todos os cookies utilizados, leia  nossa    <a href="#"> Política de Privacidade.</a>
+            Esse site usa cookies para garantir que você obtenha a melhor experiência de navegação. <br>
+            Para conferir detalhadamente todos os cookies utilizados, leia nossa <a href="#"> Política de Privacidade.</a>
         </div>
         <div class="lgpd-dir">
             <button>Aceitar</button>
