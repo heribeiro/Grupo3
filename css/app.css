@@ -141,7 +141,7 @@ main {
 
 #visitar {
     text-shadow: #000000;
-    color: #941112;
+    color: black;
     margin-left: 0px;
     font-family: 'Roboto', monospace;
     text-align: justify;
@@ -151,7 +151,7 @@ main {
 
 #obj {
     text-shadow: #000000;
-    color: #941112;
+    color: black;
     margin-left: 0px;
     font-family: 'Roboto', monospace;
     text-align: justify;
