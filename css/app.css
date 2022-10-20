@@ -132,6 +132,28 @@ main {
 
 /* FIM RESPONSIVO */
 
+/*HOME */
+
+.card-text{
+    font-family: 'Roboto', monospace;
+    text-align: justify;
+}
+
+.card-title{
+    font-family: 'Roboto', monospace;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.titleBanner{
+    font-weight: bold;
+}
+
+.w-lg-50{
+    font-weight: bold;
+}
+.
 .icofont-navigation-menu {
     color: #ffffff;
 }
@@ -140,21 +162,19 @@ main {
 
 
 #visitar {
-    text-shadow: #000000;
-    color: black;
-    margin-left: 0px;
+    
     font-family: 'Roboto', monospace;
     text-align: justify;
+    font-weight: bold;
 
 }
 
 
 #obj {
-    text-shadow: #000000;
-    color: black;
-    margin-left: 0px;
+    
     font-family: 'Roboto', monospace;
     text-align: justify;
+    font-weight: bold;
 }
 
 .textp {
@@ -263,9 +283,11 @@ a{
 
 .footer-copyright a:hover {
     color: black;
+    text-align: left;
 }
 
 .right {
     float: right;
     text-decoration: none;
+    text-align: right;
 }
