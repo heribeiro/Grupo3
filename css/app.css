@@ -235,17 +235,37 @@ a{
 }
 
 /* CONTATO */
-#iconZap{
-    text-decoration: none;
-    font-size: 40px;
-    color: green;
-    transition: 1s;
+.contato form{
+    width: 500px;
+    margin:70px auto;
+    background-color:#33CCDF;
+    padding: 10px;
+    text-align: center;
 }
-#iconZap:hover{
-    font-size: 41px;
-    color: rgba(0, 128, 0, 0.600);
-    transition: 0.7s;
+.contato input {
+    width: 470px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
+.contato select {
+    width: 470px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contato textarea {
+    width: 470px;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contato button {
+    width: 150px;
+    padding: 10px;
+}
+.contato a {
+  color: black;
+}
+
 
 
 /* Cookie LGPD */
