@@ -158,25 +158,6 @@ main {
     font-weight: bold;
 }
 
-.card-title .promocao{
-    font-family: 'Roboto', monospace;
-}
-.valorRiscado{
-    font-size: 20px;
-    text-align: center;
-    display: block;
-    text-decoration: line-through;
-    font-family: 'Roboto', monospace;
-}
-
-.valorp{
-    font-size: 30px;
-    text-align: center;
-    color: red;
-    display: block;
-    font-family: 'Roboto', monospace;
-}
-
 .icofont-navigation-menu {
     color: #ffffff;
 }
@@ -221,6 +202,28 @@ a{
 .pr {
     margin-top: 20%;
 }
+/*ATIVIDADES*/
+
+.card-title .promocao{
+    font-family: 'Roboto', monospace;
+}
+.valorRiscado{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: line-through;
+    font-family: 'Roboto', monospace;
+}
+
+.valorp{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    display: block;
+    font-family: 'Roboto', monospace;
+}
+
+
 
 /* DEPOIMENTOS */
 
