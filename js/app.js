@@ -18,7 +18,7 @@ function activeLink() {
 injectContent();
 activeLink();
 
-// Alerta Cookies lei LGPD 
+// Alerta Cookies lei LGPD Feito po Márlon
 
 let lgpdUrl = '#';
 let lgpdHTML = `

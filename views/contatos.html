@@ -1,29 +1,28 @@
 <title>Devs Paradise Resort</title>
-        <link rel="shortcut icon" href="img/logoResort01.png"/>
+<link rel="shortcut icon" href="img/logoResort01.png" />
 
 
-<div class="container text-center">
-    <h1><i class="icofont-send-mail"></i> Fale Conosco / Reservas</h1>
-    
-    <section class="contato">Ou se preferir entre em contato pelo whatsapp
-        <a href="https://api.whatsapp.com/send?phone=5547996477834&text=Olá Mundo"><i class="icofont-whatsapp"></i>47 99999-6666</a>
-    
-        <form action="">
-            <input type="text"placeholder="Nome">
-            <input type="email"placeholder="E-mail">
-            <select>
-                <option>Escolha sua opção</option>
-                <option>Reservas</option>
-                <option>Eventos</option>
-                <option>Reuniões</option>
-                <option>Outros</option>
-            </select>
-    
-            <textarea placeholder="Mensagem"></textarea>
-    
-            <button>Enviar</button>
-    
-        </form>
-    
-    </section>
-    </div>
+    <a id="iconZap" href="https://api.whatsapp.com/send?phone=5547996477834&text=Olá Mundo"><i class="icofont-whatsapp"></i>47 98881-5333</a>
+<br>
+<br>
+<div class="contato">
+    <form action="#" class="row g-3">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nome Completo</label>
+            <input type="text" name="nome" class="form-control" id="exampleFormControlInput1"
+                placeholder="Nome Completo" required maxLength="50" minLength="2">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Deixe aqui sua mensagem!</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required maxLength="200"></textarea>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Enviar Mensagem</button>
+        </div>
+    </form>
+
+</div>
