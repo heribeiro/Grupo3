@@ -89,7 +89,12 @@ main {
     li.nav-item a {
         padding: 37px 0;
     }
+    #pCenter{
+        text-align: center;
+    }
 }
+/* FIM RESPONSIVO */
+
 
 /* Banner Home */
 .banner {
@@ -133,8 +138,6 @@ main {
     color: white;
 
 }
-
-/* FIM RESPONSIVO */
 
 /*HOME */
 
