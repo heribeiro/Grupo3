@@ -7,7 +7,6 @@
 }
 
 .bg-CorNav {
-    /* background-color: #ff6a00; */
     background-color: #24c8dded;
 }
 
@@ -23,6 +22,14 @@ main {
     padding-bottom: 100px;
     margin: 15px;
     gap: 15px;
+}
+
+@media screen and (max-width:769px) {
+    #h1Video{
+        font-size: 3em;
+        line-height: 70px;
+        padding-left: 335px;
+    }
 }
 
 @media screen and (max-width:450px) {
@@ -56,6 +63,9 @@ main {
     .nossoLocal iframe{
         width: 100%;
         height: 100%;
+    }
+    #iconZap{
+        font-size: 100% !important;
     }
 }
 
@@ -109,10 +119,7 @@ main {
 
 .banner video {
     position: absolute;
-    /* top: 0;
-    left: 0; */
     object-fit: cover;
-
 }
 
 .banner .content {
@@ -136,7 +143,6 @@ main {
 .banner .content p {
     font-size: 1.5em;
     color: white;
-
 }
 
 /*HOME */
@@ -150,7 +156,6 @@ main {
     font-family: 'Roboto', monospace;
     text-align: center;
     font-weight: bold;
-
 }
 
 .titleBanner{
@@ -253,6 +258,44 @@ a{
     transition: 0.7s;
 }
 
+.contato button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+
+    
+    border: none;
+    position: relative;
+    cursor: pointer;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+input:invalid{
+    border-color: red;
+}
+textarea:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: rgb(21, 255, 0);
+}
+textarea:valid{
+    border-color: rgb(21, 255, 0);
+}
+input:focus, textarea:focus{
+    border-color: #0040ff !important;
+}
+
 /* Atividades */
 
 .acomodacoes {
@@ -279,11 +322,8 @@ a{
     align-items: center;
     justify-content: center;
     border: solid 0px var(--light);
-    /* height: 100px; */
     transition: ease-out all 0.2s;
     filter: grayscale(100%);
-    /* max-height: 70px;
-    width: 100%; */
     opacity: 0.6;
 }
 
@@ -292,8 +332,7 @@ a{
     height: 180px;
     border-radius: 12px;
     box-shadow: 3px 3px 3px 3px rgba(176, 176, 176, 0.443);
-    /* margin-bottom: 20px; */
-    /* transform: translateX(-2px) skew(-2deg); */
+    
     padding: auto;
     transition-duration: 0.5s;
     transform: scale(1.2);
@@ -340,7 +379,6 @@ a{
     flex-shrink: 0;
     position: relative;
     width: 100%;
-    /* height: 50px; */
     bottom: 0;
     background-color: #0a95bb;
 }
